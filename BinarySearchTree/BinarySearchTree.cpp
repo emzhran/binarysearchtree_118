@@ -150,6 +150,14 @@ int main()
 			obj.inorder(obj.ROOT);
 			break;
 		}
+		case '3':
+		{
+			obj.prorder(obj.ROOT);
+			break;
+		}
+		case '4':
+			obj.postorder(obj.ROOT);
+			break;
 		}
 	}
 	
