@@ -134,5 +134,15 @@ int main()
 		char ch;
 		cin >> ch;
 		cout << endl;
+
+		switch (ch)
+		{
+		case '1':
+		}
+		cout << "Enter a word: ";
+		string word;
+		cin >> word;
+		obj.insert(word);
+		break;
 	}
 }
