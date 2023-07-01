@@ -85,4 +85,21 @@ public:
 			inorder(ptr->rightchild);
 		}
 	}
+
+	void prorder(Node* ptr)
+	{
+		if (ROOT == NULL)
+		{
+			cout << "Tree is empty" << endl;
+			return;
+		}
+		{
+			if (ptr != NULL)
+			{
+				cout << ptr->info << " ";
+				prorder(ptr->leftchild);
+				prorder(ptr->rightchild);
+			}
+		}
+	}
 };
